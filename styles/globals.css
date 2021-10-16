@@ -1,9 +1,64 @@
+@import "@fontsource/source-sans-pro";
+
 html,
 body {
   padding: 0;
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+  font-family: 'Source Sans Pro', -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
     Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  background-color: #fafafa;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #263343;
+  text-align: center;
+  color: white;
+  font-size: 20px
+}
+
+.navbar_logo a {
+  margin-left: 20px;
+}
+
+.navbar_logo {
+  width: 150px;
+}
+
+.navbar__menu {
+  display: flex;
+  list-style: none;
+  padding-left: 0;
+  text-align: center;
+  margin: 15px auto;
+  
+}
+
+.navbar__menu__login {
+  display: flex;
+  list-style: none;
+  padding-left: 0;
+  /* text-align: center; */
+  margin-right: 20px;
+  width: 150px;
+  
+}
+
+.navbar__menu__login li {
+  padding: 8px 12px;
+  display: inline-block;
+}
+
+.navbar__menu li {
+  padding: 8px 12px;
+  display: inline-block;
+  margin: 0px 10px;
+}
+.navbar__menu li:hover {
+  background-color: #5d6183;
+  border-radius: 4px;
 }
 
 a {
@@ -11,6 +66,14 @@ a {
   text-decoration: none;
 }
 
+.homework {
+  text-align: center;
+  font-size: 30px;
+
+}
+
 * {
   box-sizing: border-box;
 }
+
+
