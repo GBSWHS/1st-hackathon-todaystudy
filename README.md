@@ -1,5 +1,7 @@
 **투데이스터디**는 낭비되고 있는 아침 자습 시간을 더욱 효율적으로 활용 할 수 있도록 하기 위한 소프트웨어입니다.
 
+https://github.com/GBSWHS/1st-hackathon-todaystudy/raw/main/docs/3조-바이트-영상시연.mp4
+
 ## stack
 * Next.js (React.js)
 * Tailwind.css (postcss)
